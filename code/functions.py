@@ -9,7 +9,7 @@ def exact(X):
     @param  X - numpy.array - input array of x values
     @return numpy.array - y value solutions
     '''
-    
+
     y = math.exp(x/5.0) * math.sin(2.0*x) * math.e
     return math.e ** (x/2.0)
 
@@ -22,5 +22,7 @@ def dy_dx(y,x):
     @return float - y value of current step
     '''
     return math.ln(y)/x
+
+#dont forget to push
 
 
