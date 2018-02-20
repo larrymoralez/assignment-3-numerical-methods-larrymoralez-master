@@ -23,6 +23,6 @@ def dy_dx(y,x):
     '''
     return math.ln(y)/x
 
-#dont forget to push
+#dont forget to push!
 
 
